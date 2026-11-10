@@ -1,6 +1,6 @@
 # De la misión a la geometría del grano — cadena de ecuaciones
 
-Cadena completa, **solo en símbolos**, desde los requisitos de la misión hasta las
+Cadena completa, desde los requisitos de la misión hasta las
 longitudes del grano BATES. Se detiene **antes** del volumen de control de la cámara
 (no aparecen presión de cámara, Kn ni garganta).
 
