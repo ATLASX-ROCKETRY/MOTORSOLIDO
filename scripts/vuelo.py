@@ -1,8 +1,8 @@
-"""Pasos 1-5: de la misión al impulso total y la masa de propelente.
+"""De la misión al impulso total y la masa de propelente.
 
 Vuelo vertical 1D con masa variable, arrastre cuadrático y atmósfera
 exponencial. Busca por bisección el impulso que lleva el cohete al apogeo
-objetivo. Ver docs/01_mision_a_geometria.md.
+objetivo.
 """
 import math
 

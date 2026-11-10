@@ -1,6 +1,6 @@
-"""Pasos 6-12: de la masa de propelente a las longitudes del grano BATES.
+"""De la masa de propelente a las longitudes del grano BATES.
 
-Ver docs/01_mision_a_geometria.md. No incluye el modelo de cámara
+No incluye el modelo de cámara
 (presión, Kn, garganta): eso valida k, N y zeta en la siguiente etapa.
 """
 import math

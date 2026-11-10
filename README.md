@@ -14,9 +14,8 @@ Diseño de un motor cohete de propelente sólido (grano BATES) para el cohete At
 
 | Archivo | Qué hace |
 |---|---|
-| [`docs/01_mision_a_geometria.md`](docs/01_mision_a_geometria.md) | Cadena de ecuaciones en símbolos: de la misión a las longitudes del grano (pasos 1–12) |
-| [`scripts/vuelo.py`](scripts/vuelo.py) | Pasos 1–5: simulación de vuelo 1D → impulso requerido y masa de propelente |
-| [`scripts/dimensionar.py`](scripts/dimensionar.py) | Pasos 6–12: presupuesto de masa → D, d₀, L₀, w y dimensiones del tubo |
+| [`scripts/vuelo.py`](scripts/vuelo.py) | Simulación de vuelo 1D → impulso requerido y masa de propelente |
+| [`scripts/dimensionar.py`](scripts/dimensionar.py) | Presupuesto de masa → D, d₀, L₀, w y dimensiones del tubo |
 
 Ejecutar (solo Python estándar):
 
