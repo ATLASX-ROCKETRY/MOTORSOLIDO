@@ -7,6 +7,7 @@ Diseño de un motor cohete de propelente sólido (grano BATES) para el cohete At
 | Archivo | Qué contiene |
 |---|---|
 | [`docs/01_mision_a_geometria.md`](docs/01_mision_a_geometria.md) | Cadena de ecuaciones en símbolos: de la misión a las longitudes del grano (pasos 1–12) |
+| [`docs/02_numero_de_granos.md`](docs/02_numero_de_granos.md) | Cómo se define el número de segmentos N: mínimo por volumen, máximo por flujo másico, espacio |
 
 ## Estado
 
