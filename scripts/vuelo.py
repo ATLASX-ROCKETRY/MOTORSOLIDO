@@ -1,8 +1,8 @@
-"""De la misión al impulso total y la masa de propelente.
+"""Pasos 1-4: de la misión al impulso total requerido.
 
 Vuelo vertical 1D con masa variable, arrastre cuadrático y atmósfera
 exponencial. Busca por bisección el impulso que lleva el cohete al apogeo
-objetivo.
+objetivo. Ver docs/01_mision_a_impulso.md.
 """
 import math
 
@@ -17,7 +17,6 @@ CD = 0.5             # coeficiente de arrastre del cohete [-]
 F_MEDIO = 800.0      # empuje medio (perfil rectangular) [N]
 RHO0 = 1.225         # densidad del aire en el sitio [kg/m3] (nivel del mar: conservador)
 H_ESC = 8500.0       # altura de escala de la atmósfera [m]
-MARGEN = 0.20        # margen de diseño sobre el impulso [-]
 
 # --- Propelente (de la termoquímica) ---
 ISP = 104.0          # impulso específico [s]
@@ -72,9 +71,3 @@ if __name__ == "__main__":
         h, vm, mp, tb = apogeo(I, cd=cd)
         print(f"Cd={cd}: I_req={I:.0f} N·s  v_max={vm:.0f} m/s  m_p={mp:.2f} kg  t_b={tb:.2f} s")
 
-    # Paso 5: margen y propelente
-    I_req = impulso_requerido()
-    I_dis = (1 + MARGEN) * I_req
-    mp = I_dis / (ISP * G0)
-    print(f"\nI_req = {I_req:.0f} N·s  ->  I_dis = {I_dis:.0f} N·s  ->  m_p = {mp:.2f} kg")
-    print(f"Apogeo nominal con I_dis: {apogeo(I_dis)[0]:.0f} m")
